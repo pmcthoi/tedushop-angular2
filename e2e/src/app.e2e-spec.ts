@@ -10,7 +10,11 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
+<<<<<<< HEAD
     expect(page.getTitleText()).toEqual('Welcome to tedushop-angular2!');
+=======
+    expect(page.getTitleText()).toEqual('Welcome to gitesting-angular!');
+>>>>>>> 61e73a4ddfeae9a36c93fed571e60c895b9079bd
   });
 
   afterEach(async () => {

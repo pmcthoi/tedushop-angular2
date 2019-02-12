@@ -3,21 +3,33 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "tedushop-angular2": {
+=======
+    "gitesting-angular": {
+>>>>>>> 61e73a4ddfeae9a36c93fed571e60c895b9079bd
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
       "prefix": "app",
+<<<<<<< HEAD
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"
         }
       },
+=======
+      "schematics": {},
+>>>>>>> 61e73a4ddfeae9a36c93fed571e60c895b9079bd
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/tedushop-angular2",
+=======
+            "outputPath": "dist/gitesting-angular",
+>>>>>>> 61e73a4ddfeae9a36c93fed571e60c895b9079bd
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -27,7 +39,11 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "src/styles.scss"
+=======
+              "src/styles.css"
+>>>>>>> 61e73a4ddfeae9a36c93fed571e60c895b9079bd
             ],
             "scripts": []
           },
@@ -61,18 +77,30 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "tedushop-angular2:build"
           },
           "configurations": {
             "production": {
               "browserTarget": "tedushop-angular2:build:production"
+=======
+            "browserTarget": "gitesting-angular:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "gitesting-angular:build:production"
+>>>>>>> 61e73a4ddfeae9a36c93fed571e60c895b9079bd
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "tedushop-angular2:build"
+=======
+            "browserTarget": "gitesting-angular:build"
+>>>>>>> 61e73a4ddfeae9a36c93fed571e60c895b9079bd
           }
         },
         "test": {
@@ -83,7 +111,11 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
+<<<<<<< HEAD
               "src/styles.scss"
+=======
+              "src/styles.css"
+>>>>>>> 61e73a4ddfeae9a36c93fed571e60c895b9079bd
             ],
             "scripts": [],
             "assets": [
@@ -106,7 +138,11 @@
         }
       }
     },
+<<<<<<< HEAD
     "tedushop-angular2-e2e": {
+=======
+    "gitesting-angular-e2e": {
+>>>>>>> 61e73a4ddfeae9a36c93fed571e60c895b9079bd
       "root": "e2e/",
       "projectType": "application",
       "prefix": "",
@@ -115,11 +151,19 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
+<<<<<<< HEAD
             "devServerTarget": "tedushop-angular2:serve"
           },
           "configurations": {
             "production": {
               "devServerTarget": "tedushop-angular2:serve:production"
+=======
+            "devServerTarget": "gitesting-angular:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "gitesting-angular:serve:production"
+>>>>>>> 61e73a4ddfeae9a36c93fed571e60c895b9079bd
             }
           }
         },
@@ -135,5 +179,9 @@
       }
     }
   },
+<<<<<<< HEAD
   "defaultProject": "tedushop-angular2"
+=======
+  "defaultProject": "gitesting-angular"
+>>>>>>> 61e73a4ddfeae9a36c93fed571e60c895b9079bd
 }

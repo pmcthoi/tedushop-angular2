@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "tedushop-angular2",
+=======
+  "name": "gitesting-angular",
+>>>>>>> 61e73a4ddfeae9a36c93fed571e60c895b9079bd
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
@@ -26,7 +30,11 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.12.0",
+<<<<<<< HEAD
     "@angular/cli": "~7.2.3",
+=======
+    "@angular/cli": "~7.2.2",
+>>>>>>> 61e73a4ddfeae9a36c93fed571e60c895b9079bd
     "@angular/compiler-cli": "~7.2.0",
     "@angular/language-service": "~7.2.0",
     "@types/node": "~8.9.4",
